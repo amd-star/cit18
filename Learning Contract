@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Learning Contract</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: navy;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        main {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: white;
+            padding: 20px;
+            border-left: 1px solid gray;
+            border-right: 1px solid gray;
+        }
+
+        section {
+            border: 1px solid black;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: navy;
+            border-bottom: 1px solid gray;
+            padding-bottom: 5px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        #signature-area {
+            text-align: right;
+            margin-top: 50px;
+            padding-right: 20px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        @media screen and (max-width: 600px) {
+            main {
+                width: 100%;
+                border: none;
+                padding: 10px;
+            }
+            
+            section {
+                margin-bottom: 10px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Learning Contract</h1>
+    </header>
+
+    <main>
+        <section id="expectations">
+            <h2>Expectations</h2>
+            <p>
+                To develop a comprehensive understanding of web development
+            </p>
+        </section>
+
+        <section id="motivations">
+            <h2>Motivations</h2>
+            <p>
+                To become employed so I can have money for hobbies
+            </p>
+        </section>
+
+        <section id="contributions">
+            <h2>Contributions</h2>
+            <p>
+                To contribute to a positive learning environment
+            </p>
+        </section>
+
+        <section id="hindrances">
+            <h2>Hindrances</h2>
+            <p>
+                 Heavy procrastinator
+            </p>
+        </section>
+
+        <div id="signature-area">
+            <p><b>Signed by:</b></p>
+            <br>
+            <p>Axel</p>
+            <hr style="width: 200px; float: right;">
+        </div>
+        <div style="clear: both;"></div> 
+    </main>
+
+    <footer>
+        <p>Created by Axel</p>
+    </footer>
+
+</body>
+</html>
