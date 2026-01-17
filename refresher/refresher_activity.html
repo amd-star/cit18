@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axel Dominguez | Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Axel</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-toggle"><i class="fas fa-moon"></i></button>
+    </nav>
+
+    <header id="about">
+        <div class="header-content">
+            <h1>Hello, I'm <span class="highlight">Axel Dominguez</span></h1>
+            <h2>IT Student & Project Leader</h2>
+            <p>I am a 3rd-year undergraduate at the University of the Cordilleras, learning about web development and creative technologies.</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
+    </header>
+
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="card">
+                <h3>Bachelor of Science in Information Technology</h3>
+                <h4>University of the Cordilleras | Baguio City</h4>
+                <p><strong>Current Year:</strong> 3rd Year</p>
+                <p>Focusing on software development, database management, and system analysis.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="card">
+                    <h3>Capstone Project</h3>
+                    <h4>VeriLokal Project | Nov 2025 - Present</h4>
+                    <ul>
+                        <li>Partnering with <strong>Mondiguing Woodcrafts</strong> to authenticate local artisan products.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Technical & Soft Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">HTML5 & CSS3</div>
+                <div class="skill-item">PHP & MySQL</div>
+                <div class="skill-item">Git & VS Code</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Recent Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>VeriLokal Platform</h3>
+                    <p>A web platform using QR codes and blockchain to solve information asymmetry for tourists and protect the brand identity of Baguio artisans.</p>
+                    <span class="tag">Web Dev</span> <span class="tag">Blockchain</span>
+                </div>
+                <div class="project-card">
+                    <h3>Student Registration System</h3>
+                    <p>A backend development exercise creating a functional student database using PHP and MySQL with a registration interface.</p>
+                    <span class="tag">PHP</span> <span class="tag">MySQL</span>
+                </div>
+                <div class="project-card">
+                    <h3>Room Reservation App</h3>
+                    <p>Designed the user experience, empathy maps, and feature matrix for a school facility booking application.</p>
+                    <span class="tag">UI/UX Design</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Axel Dominguez. Hosted on GitHub Pages.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
